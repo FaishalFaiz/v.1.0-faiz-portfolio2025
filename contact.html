@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiz's Portfolio</title>
+
+    <link rel="stylesheet" href="styles/output.css" />
+    <!-- my font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" />
+</head>
+<body>
+    <nav class="fixed w-full top-0 flex items-center justify-between py-4 px-6 bg-main-yellow">
+        <h1 class="text-xl font-montserrat font-bold">Faiz's Portfolio</h1>
+        <div class="flex flex-col items-center">
+            <button id="menu-btn" class="md:hidden block focus:outline-none">
+                <!-- ikon burger -->
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <ol id="menu" class="hidden md:flex items-center space-x-6">
+                <li><a href="index.html" class="hover:font-bold">Home</a></li>
+                <li><a href="about.html" class="hover:font-bold">About</a></li>
+                <li><a href="projects.html" class="hover:font-bold">Projects</a></li>
+                <li><a href="contact.html" class="hover:font-bold">Contact</a></li>
+            </ol>
+        </div>
+    </nav>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Nunito:wght@200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@theme {
+    --color-main-gray: #353535;
+    --color-main-yellow: #fdd565;
+    --color-main-white: #f4f4f4;
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --font-nunito: "Nunito", sans-serif;
+    --font-arial: Arial, sans-serif;
+}
+
+.stat-card {
+    @apply flex w-fit md:w-1/2 gap-3 max-w-[250px] border-1 items-center justify-center px-4 py-2 border-dashed rounded-lg border-main-gray;
+}
+
+.stat-card p {
+    @apply text-xl md:text-3xl font-bold text-yellow-500;
+}
+
+.skill-icon {
+    @apply w-10 h-10 md:w-16 md:h-16;
+}
+
+.section-header {
+    @apply font-montserrat text-xl md:text-2xl font-medium bg-main-yellow w-fit h-fit;
+}
+
+.linked-text {
+    @apply font-bold hover:font-medium hover:underline;
+}
+
+.project-card {
+    @apply flex flex-col rounded-xl shadow-lg border-3 border-main-yellow overflow-hidden w-[40%] md:w-1/5;
+}

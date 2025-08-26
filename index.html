@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faiz's Portfolio</title>
+
+    <link rel="stylesheet" href="styles/output.css" />
+    <!-- my font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" />
+
+</head>
+
+<body class="text-main-gray overflow-y-auto font-nunito bg-main-white">
+    <nav class="fixed w-full top-0 flex items-center justify-between py-4 px-6 bg-main-yellow">
+        <h1 class="text-xl font-montserrat font-bold">Faiz's Portfolio</h1>
+        <div class="flex flex-col items-center">
+            <button id="menu-btn" class="md:hidden block focus:outline-none">
+                <!-- ikon burger -->
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <ol id="menu" class="hidden md:flex items-center space-x-6">
+                <li><a href="index.html" class="hover:font-bold">Home</a></li>
+                <li><a href="about.html" class="hover:font-bold">About</a></li>
+                <li><a href="projects.html" class="hover:font-bold">Projects</a></li>
+                <li><a href="contact.html" class="hover:font-bold">Contact</a></li>
+            </ol>
+        </div>
+    </nav>
+    <header
+        class="flex flex-col items-center justify-center mt-10 md:mt-0 bg-gradient-to-b from-main-yellow to-main-white h-screen">
+        <div class="w-[85%] md:w-[65%]">
+            <div class="flex flex-col md:flex-row mb-10 items-center text-center md:text-left">
+                <div
+                    class="flex flex-col order-2 md:order-1 gap-4 whitespace-normal items-center md:items-start md:w-[50%] md:mr-auto">
+                    <h2 class="font-montserrat text-xl md:text-4xl">Introducing🖐️</h2>
+                    <h1 class="font-poppins font-semibold text-4xl md:text-6xl">
+                        Faiz Faishal Nugroho.
+                    </h1>
+                    <p class="text-center text-wrap md:text-justify max-w-[450px] text-base md:text-lg ">
+                        I'm a student who’s really into tech and loves learning by doing. I’m
+                        always growing, trying new things, and building my personal branding
+                        along the way.
+                    </p>
+                    <a href="about.html"
+                        class="bg-main-yellow flex justify-center items-center shadow-xl w-1/5 h-10 font-poppins font-medium min-w-[100px] rounded-md">About
+                        Me</a>
+                </div>
+                <img src="assets/photo-pp.png"
+                    class="w-[40%] border-5 order-1 md:order-2 mb-5 border-main-yellow h-auto rounded-full shadow-xl shadow-black-500/30"
+                    alt="Faiz's Photo" />
+            </div>
+            <div class="flex flex-col md:flex-row items-center md:items:center gap-5 font-poppins font-medium">
+                <div class="stat-card">
+                    <h5>Project Created</h4>
+                        <p>25+</p>
+                </div>
+                <div class="stat-card">
+                    <h5>Design Created</h4>
+                        <p>20+</p>
+                </div>
+                <div class="stat-card">
+                    <h5>Competition Joined</h4>
+                        <p>8+</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="flex flex-col mt-10 mb-30 pt-10">
+        <section class="flex flex-col mb-40 items-center">
+            <div class="section-header mb-10">
+                <h3>My Techstacks</h3>
+            </div>
+            <div class="w-[70%] flex gap-7 justify-center flex-wrap">
+                <img src="assets/icon/bootstrap.svg" class="skill-icon" alt="Bootstrap Icon" />
+                <img src="assets/icon/css.svg" class="skill-icon" alt="CSS Icon" />
+                <img src="assets/icon/figma.svg" class="skill-icon" alt="Figma Icon" />
+                <img src="assets/icon/html.svg" class="skill-icon" alt="HTML Icon" />
+                <img src="assets/icon/javascript.svg" class="skill-icon" alt="Javascipt Icon" />
+                <img src="assets/icon/laravel.svg" class="skill-icon" alt="Laravel Icon" />
+                <img src="assets/icon/node.svg" class="skill-icon" alt="NodeJS Icon" />
+                <img src="assets/icon/tailwind.svg" class="skill-icon" alt="Tailwind Icon" />
+            </div>
+        </section>
+
+        <section class="flex flex-col md:flex-row gap-6 justify-between w-[80%]  md:w-[60%] mx-auto mb-40">
+            <div class="flex flex-col w-full md:w-4/5 items-center md:items-start pr-0 md:pr-10">
+                <div class="section-header mb-5">
+                    <h3>Why Me?</h3>
+                </div>
+                <p class="text-justify mb-4">Because I’m someone who doesn’t just focus on building technical skills
+                    like programming and coding, but also on growing my character and soft skills.</p>
+                <div class="flex flex-wrap gap-5 justify-center mb-4 md:mb-10 md:justify-start">
+                    <a href="https://www.linkedin.com/posts/faishalfn_idnbackpacker2025-characterdevelopment-softskills-activity-7325697143443279873-QpMu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_j_psBt-aBYQY9IxZlPeQ_xzwC2bWnz5o"
+                        target="_blank" rel="noopener noreferrer" class="linked-text">• IDN
+                        Backpacker 2025</a>
+                    <a href="https://www.linkedin.com/posts/faishalfn_another-awesome-experience-last-week-activity-7359416317197651968-dVd9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_j_psBt-aBYQY9IxZlPeQ_xzwC2bWnz5o"
+                        target="_blank" rel="noopener noreferrer" class="linked-text">• IDN
+                        Goes To Masjid</a>
+                    <a href="https://www.linkedin.com/posts/faishalfn_workshop-idnmengajar-teaching-activity-7300051193442054144-6cAF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_j_psBt-aBYQY9IxZlPeQ_xzwC2bWnz5o"
+                        target="_blank" rel="noopener noreferrer" class="linked-text">• IDN
+                        Teaching MUGADETA</a>
+                    <a href="https://www.linkedin.com/posts/faishalfn_trainer-robotic-iot-activity-7219342578159169536-xeUq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_j_psBt-aBYQY9IxZlPeQ_xzwC2bWnz5o"
+                        target="_blank" rel="noopener noreferrer" class="linked-text">• IDN
+                        R.I.A Traning</a>
+                </div>
+                <a href="https://www.linkedin.com/in/faishalfn/" target="_blank" rel="noopener noreferrer"
+                    class="underline">See More Activities</a>
+            </div>
+            <img src="assets/img-me.png"
+                class="w-full md:w-4/5 max-h-[500px] object-cover border-5 rounded-xl border-main-yellow shadow-xl">
+        </section>
+
+        <section class="flex flex-col justify-center items-center w-[80%] md:w-[65%] mx-auto">
+            <div class="section-header">
+                <h3>My Project</h3>
+            </div>
+            <div class="flex flex-wrap gap-10 items-center justify-center w-full py-10">
+                <div class="project-card">
+                    <img src="assets/img-me.png" class="w-full h-25 md:h-48 object-cover" alt="My Project" />
+                    <div class="bg-main-yellow p-2 md:p-4">
+                        <p class="text-md md:text-xl font-semibold text-center">Website Project</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/img-me.png" class="w-full h-25 md:h-48 object-cover" alt="My Project" />
+                    <div class="bg-main-yellow p-2 md:p-4">
+                        <p class="text-md md:text-xl font-semibold text-center">Design Project</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/img-me.png" class="w-full h-25 md:h-48 object-cover" alt="My Project" />
+                    <div class="bg-main-yellow p-2 md:p-4">
+                        <p class="text-md md:text-xl font-semibold text-center">Competition</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/img-me.png" class="w-full h-25 md:h-48 object-cover" alt="My Project" />
+                    <div class="bg-main-yellow p-2 md:p-4">
+                        <p class="text-md md:text-xl font-semibold text-center">Activities</p>
+                    </div>
+                </div>
+            </div>
+            <a href="projects.html"
+                class="border-2 flex justify-center items-center border-main-yellow w-30 h-10 font-poppins font-medium min-w-[100px] hover:bg-main-yellow">See More</a>
+        </section>
+    </main>
+    <footer class="bg-main-yellow flex flex-row py-3 justify-center ">
+        <h4 class="text-xs md:text-base">&copy; 2025 Faiz's Portfolio. Made by <a href="about.html" class="underline hover:font-bold">Faishal</a>.</h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
